@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Emergency System",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/emergency",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build",
+      "windows": {
+        "program": "${workspaceFolder}/build/emergency.exe"
+      }
+    }
+  ]
+}
